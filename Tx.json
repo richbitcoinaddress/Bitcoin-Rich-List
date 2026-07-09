@@ -1,0 +1,46 @@
+{
+  "txId": "ac3e3391001196a1c51bd3a0446d58096cb6bd5ba5790f9de3a7e79a54cc94b3",
+  "blockHeight": 938417,
+  "blockPosition": 1855,
+  "mempool": false,
+  "mempoolTime": null,
+  "time": 1772090338,
+  "fee": 19,
+  "size": 3934,
+  "weight": 5543199,
+  "rbf": false,
+  "inputs": [
+    {
+      "coinbase": false,
+      "txid": "f8471250471fc353f0ba0be8bc63962f5422aea59e0013bc71639497d4396c4d",
+      "output": 0,
+      "sigscript": "",
+      "sequence": 4294967293,
+      "pkscript": "51201750008d6aff41c7202557e9975b1d2de9c89af997f7fa697ca97f5d4068a2ae",
+      "value": 469,
+      "address": "bc1pzagqprt2laquwgp92l5ewkca9h5u3xhejlml56tu49l46srg52hqwhxfdz",
+      "witness": [
+        "6b7e378da97f8dd369cfce5c16c75c85db4fa9e110df3855d2e62adc601c5af23f74bb0cf2c270eecea702638586a7aaf56f33b0f23695fe537459e25b5360ed",
+        "201fa3af8c6320f9561e89a79285589c5932b0714d6be58e3b86b6bb808e939e45ac0063036f7264010118746578742f706c61696e3b636861727365743d7574662d3800357b2270223a226272632d3230222c226f70223a226d696e74222c227469636b223a2239425443222c22616d74223a2231303030227d68",
+        "c01fa3af8c6320f9561e89a79285589c5932b0714d6be58e3b86b6bb808e939e45"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "address": "bc1qc0l0a07ykt4plvd846q39fvu4ul3ve04l85wxk",
+      "pkscript": "0014c3fefebfc4b2ea1fb1a7ae8112a59caf3f1665f5",
+      "value": 33441199391314,
+      "spent": false
+    }
+  ],
+  "version": 1,
+  "locktime": 0,
+  "deleted": false,
+  "txid": "ac3e3391001196a1c51bd3a0446d58096cb6bd5ba5790f9de3a7e79a54cc94b3",
+  "block": {
+    "height": 938417,
+    "mempool": false,
+    "position": 1934
+  }
+}
