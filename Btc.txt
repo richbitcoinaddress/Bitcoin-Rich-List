@@ -1,0 +1,28 @@
+2009/11/10 23:00:00 Listening on:  :8080
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [IO wait]:
+internal/poll.runtime_pollWait(0x7eabb82a3200, 0x72)
+	/usr/local/go-faketime/src/runtime/netpoll.go:351 +0x85
+internal/poll.(*pollDesc).wait(0x21dbe3942280?, 0x825dc0?, 0x0)
+	/usr/local/go-faketime/src/internal/poll/fd_poll_runtime.go:84 +0x27
+internal/poll.(*pollDesc).waitRead(...)
+	/usr/local/go-faketime/src/internal/poll/fd_poll_runtime.go:89
+internal/poll.(*FD).Accept(0x21dbe3942280)
+	/usr/local/go-faketime/src/internal/poll/fd_unix.go:613 +0x28c
+net.(*netFD).accept(0x21dbe3942280)
+	/usr/local/go-faketime/src/net/fd_unix.go:150 +0x29
+net.(*TCPListener).accept(0x21dbe3894540)
+	/usr/local/go-faketime/src/net/tcpsock_posix.go:159 +0x1b
+net.(*TCPListener).Accept(0x21dbe3894540)
+	/usr/local/go-faketime/src/net/tcpsock.go:387 +0x30
+net/http.(*Server).Serve(0x21dbe385e300, {0x9ddab0, 0x21dbe3894540})
+	/usr/local/go-faketime/src/net/http/server.go:3434 +0x30c
+net/http.(*Server).ListenAndServe(0x21dbe385e300)
+	/usr/local/go-faketime/src/net/http/server.go:3360 +0x72
+net/http.ListenAndServe(...)
+	/usr/local/go-faketime/src/net/http/server.go:3675
+main.main()
+	/tmp/sandbox1358497056/prog.go:158 +0x16d
+
+Program exited.
